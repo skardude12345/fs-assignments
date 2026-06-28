@@ -1,0 +1,44 @@
+
+h5 {
+    margin: 1px;
+}
+
+p {
+    color: grey;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-container { 
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+}
+
+.flex-item { 
+    width: 30%;
+    height: 300px;
+    text-align: left;
+    background-color: white;
+}
+
+a {
+    padding: 0px;
+    text-align:left;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+}
+
+img {
+    width: 100%;
+}

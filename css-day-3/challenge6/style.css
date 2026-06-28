@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+
+.chooseyourstore{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.topsunder699{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+}
+
+.flex-item {
+    background-color: rgb(251, 148, 100);
+    width: 28%
+}
+
+.flex-item img {
+    width: 100%;
+}
+

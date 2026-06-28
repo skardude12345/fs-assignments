@@ -1,0 +1,61 @@
+body {
+    margin: 0
+}
+
+h1 {
+    color: rgb(0, 125, 125)
+}
+
+.header-div {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    margin: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.flex-item {
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.flex-item p {
+    font-size: 12px;
+}
+
+.flex-item img {
+    width: 100%
+}
+
+#stats-div {
+    display: flex;
+    background-color: rgb(236, 168, 21);
+    justify-content: space-between;
+}
+
+.statcard {
+    text-align: center;
+    margin: 20px
+}
+
+.number p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#features-div .flex-item {
+    box-shadow: none;
+}
+
+#features-div .flex-item img {
+    width: 40%
+}
+
+h4 {
+    margin: 10px
+}

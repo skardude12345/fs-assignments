@@ -1,0 +1,39 @@
+body {
+
+    background-color: rgb(255, 248, 239);
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.flex-item {
+    margin-bottom: 20%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+}
+
+.flex-item img {
+    width: 100%;
+}
+
+.movie-title {
+    text-align: center;
+    font-size: larger;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(94, 199, 248);
+    border: none;
+}

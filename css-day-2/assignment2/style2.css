@@ -1,0 +1,61 @@
+
+body {
+    text-align:center;
+}
+
+.headerClass { 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+p {
+    color: grey;
+    width: 30%;
+    font-size: small;
+    margin-top: 10px;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-container { 
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+}
+
+.flex-item { 
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    overflow:hidden
+}
+
+.profile {
+    width: 100%;
+}
+
+.company-logo {
+    width: 50%;
+}
+
+button {
+    margin-top: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}

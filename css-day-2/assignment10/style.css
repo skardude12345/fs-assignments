@@ -1,0 +1,65 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    color: rgb(253, 121, 44);
+}
+
+.header-div {
+    text-align: center;
+
+}
+
+.flex-item img {
+    width: 100%;
+}
+
+.flex-item {
+    text-align: center;
+    width: 20%
+}
+
+#onlinemusic p {
+    color: grey
+}
+
+#onlinemusic img {
+    width: 50%;
+}
+
+#featured-guests .flex-item {
+    width: 20%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: small;
+    padding: 10px 10px 20px 10px;
+}
+
+
+#featured-guests img {
+    width: 60%;
+}
+
+#buywhatsnew .flex-item {
+    width: 16%;
+    text-align: left;
+}
+
+#buywhatsnew h3{ 
+    font-size: small;
+}
+
+#buywhatsnew p {
+    font-size: x-small;
+}
+
+
+a {
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
