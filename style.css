@@ -1,26 +1,27 @@
-body{
+body {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h1{
+h1 {
     margin: 50px;
     margin-bottom: 10px;
     font-size: 70px;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
     margin: 20px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 180%;
+    margin: 20px;
 }
 
 .flex-container {
     display: flex;
-    margin: 50px;
+    margin: 70px;
     gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
@@ -28,13 +29,15 @@ h3 {
 
 .flex-item {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 60px;
+    padding: 7%;
     border-radius: 50px;
-    width: fit-content;
+    width: max-content;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
-    
 }
